@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #111;
+            padding: 20px 0;
+        }
+
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Navigation Styles */
+        nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 18px;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            background-image: url('netflix-bg.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 150px 0;
+        }
+
+        .hero h1 {
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 24px;
+        }
+
+        /* Featured Movies Styles (Example) */
+        .featured-movies {
+            padding: 50px 0;
+        }
+
+        .movie {
+            text-align: center;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .movie img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .movie h2 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix Clone</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Movies</a>
+            <a href="#">My List</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to Netflix</h1>
+        <p>Watch unlimited movies and TV shows. Anytime. Anywhere.</p>
+    </div>
+
+    <div class="featured-movies">
+        <div class="movie">
+            <img src="movie1.jpg" alt="Movie 1">
+            <h2>Movie Title 1</h2>
+        </div>
+        <div class="movie">
+            <img src="movie2.jpg" alt="Movie 2">
+            <h2>Movie Title 2</h2>
+        </div>
+        <div class="movie">
+            <img src="movie3.jpg" alt="Movie 3">
+            <h2>Movie Title 3</h2>
+        </div>
+        <!-- Add more featured movies as needed -->
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
